@@ -1,0 +1,82 @@
+.heading {
+    text-align: center;
+    width: 55%;
+    margin: auto;
+    padding: 30px 0px;
+}
+
+.heading h2 span {
+    color: #26a65b;
+}
+
+.heading h2 {
+    margin-bottom: 18px;
+    font-size: 35px;
+}
+
+.heading p {
+    color: #4b4c4b;
+    line-height: 30px;
+}
+.card-body {
+    -ms-flex: 1 1 auto;
+    flex: 1 1 auto;
+    padding: 1.25rem;
+    text-align: center;
+    border: 1px solid #ccc;
+    transition: .3s;
+}
+.card-body:hover {
+    border-color: #26a65b;
+    box-shadow: 0 0 5 0 #ccc;
+    box-shadow: 5px 5px 5px #aaaaaa;
+}
+.card-Header {
+    text-transform: uppercase;
+    color: #4b4c4b;
+}
+
+.card-Header h4 {
+    font-size: 20px;
+    padding-bottom: 15px;
+}
+
+.img {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 25px;
+}
+
+.content ul li {
+    list-style: none;
+    text-align: left;
+    padding: 5px 0px;
+    transition: .3s;
+}
+.content ul li::before {
+    font-family: "Font Awesome 5 Free"; font-weight: 900; content: "\f00c";
+  }
+.content ul li:hover{
+    padding-left: 5px;
+}
+.content h3 {
+    color: #242524;
+    margin-bottom: 10px;
+    font-size: 25px;
+}
+
+a.boxed-button:hover {
+    color: #fff;
+    background: #26a65b;
+}
+
+a.boxed-button {
+    border: 1px solid #26a65b;
+    padding: 10px 20px;
+    border-radius: 30px;
+    margin-top: 10px;
+    display: inline-block;
+    color: #cccccc;
+    text-decoration: none;
+    transition: .3s;
+}
