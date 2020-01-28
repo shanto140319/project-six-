@@ -25,6 +25,7 @@
     text-align: center;
     border: 1px solid #ccc;
     transition: .3s;
+    margin-bottom: 25px;
 }
 .card-body:hover {
     border-color: #26a65b;
